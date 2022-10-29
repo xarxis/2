@@ -1,3 +1,4 @@
+#работа с таблицей
 import pandas as pd
 import json
 a=pd.read_excel("tab_1.xlsx",index_col=0,header=None)

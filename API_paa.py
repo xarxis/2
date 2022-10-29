@@ -1,3 +1,4 @@
+#работа с API
 import requests
 import json
 endpoint_device = 'https://api.weather.yandex.ru/v2/informers?lat=55.75396&lon=37.620393&extra=true'
