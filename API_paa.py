@@ -1,7 +1,7 @@
 #работа с API
 import requests
 import json
-endpoint_device = 'https://api.weather.yandex.ru/v2/informers?lat=55.75396&lon=37.620393&extra=true'
+endpoint_device = 'https://api.openweathermap.org/data/2.5/weather?lat={55.75396}&lon={37.620393}&appid={3cf93a35ad6a33e3cf94a69e010041dd}'
 headers = {'X-Yandex-API-Key': '7db1ea84-a07c-4bfc-937a-bf45c29adca0'}
 r_dev = requests.get(endpoint_device, headers=headers, verify=False)
 #print(type(r_dev))
